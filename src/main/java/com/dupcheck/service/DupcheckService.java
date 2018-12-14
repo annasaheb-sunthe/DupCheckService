@@ -23,4 +23,6 @@ public interface DupcheckService {
 	public List<DupcheckRuleModel> getAllDupcheckRules();
 	
 	public DupcheckRuleModel getDupcheckRuleById(long dupcheckRuleId);
+	
+	public void DeleteDupcheckRuleModel(long dupcheckRuleId);
 }

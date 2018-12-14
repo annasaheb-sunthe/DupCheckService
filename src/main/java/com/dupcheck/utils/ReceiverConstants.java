@@ -8,4 +8,5 @@ public interface ReceiverConstants {
 	public static final String GET_DUPCHECK_RULE_BY_ID_URL = "/getAllDupcheckRule/{dupcheckRuleId}";
 	public static final String GET_DUPCHECK_RULE_BY_TYPE_URL = "/getDupcheckRuleByType";
 	public static final String DUPCHECK_REQUEST_URL = "/checkDuplicateRequest";
+	public static final String DELETE_DUPCHECK_RULE_URL = "/deleteDupcheckRule/{dupcheckRuleId}";
 }

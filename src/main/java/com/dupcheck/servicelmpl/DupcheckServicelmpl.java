@@ -207,6 +207,11 @@ public class DupcheckServicelmpl implements DupcheckService {
 		return dupcheckRuleModel;
 	}
 
+	@Override
+	public void DeleteDupcheckRuleModel(long dupcheckRuleId) {
+		dupcheckRuleRepository.delete(getDupcheckRuleById(dupcheckRuleId));
+	}
+
 	public long getMetadataId() {
 		Random random = new Random(System.nanoTime() % 100000);
 		long uniqueMetadataId = random.nextInt(1000000000);
